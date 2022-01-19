@@ -1,16 +1,16 @@
-#ifndef TREE
-#define TREE
+#ifndef PTREE
+#define PTREE
 #define MAX_TREE_SIZE 100
 template <typename T>
-class node{
+class Pnode{
     public:
     T data;
     int parent;
 };
 template <typename T>
-class tree{
+class Ptree{
     public:
-    node<T> nodes[MAX_TREE_SIZE];
+    Pnode<T> nodes[MAX_TREE_SIZE];
     int r,n;
 };
 #endif
