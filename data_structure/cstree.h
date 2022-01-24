@@ -9,11 +9,5 @@ public:
     T data;
     CSnode<T> *firstchild, *rightchild;
 };
-template <typename T>
-class cstree
-{
-public:
-    CSnode<T> *root;
-};
 
 #endif
