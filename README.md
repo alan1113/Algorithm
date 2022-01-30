@@ -1,3 +1,3 @@
 # Algorithm
 ---
-algorithm practice
+## algorithm practice
